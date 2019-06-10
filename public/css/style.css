@@ -1,0 +1,308 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.jumbotron {
+  background-image: url("/public/header_bg_wood.png");
+  background-size: 100% 100%;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.navbar-scroll {
+  background-color: rgba(12, 12, 12, 0.4);
+  transition: background-color 0.5s;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    background-color: #1a1a1a !important;
+  }
+}
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+.parallax-container {
+  max-width: 960px;
+  margin: 0 auto;
+  color: #ddd;
+}
+
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+}
+
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+section.module p:last-child {
+  margin-bottom: 0;
+}
+
+section.module.content {
+  padding: 40px 0;
+  background-color: #090909;
+}
+
+section.module.content:last-child {
+  margin-bottom: 60px;
+}
+
+section.module.parallax {
+  padding: 240px 0;
+  background-position: 0 0;
+}
+
+section.module.parallax h2 {
+  color: #e6e6e6;
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 500;
+  text-align: center;
+}
+
+section.module.parallax-1 {
+  background: url("/public/intro-bg.jpg") no-repeat;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: screen;
+  height: 100%;
+  width: 100%;
+}
+
+section.module.parallax-2 {
+  background: url("/public/header.jpg");
+  background-position: 50% 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: screen;
+}
+
+section.module.parallax-3 {
+  background: url("/public/cert_bg.png");
+  background-position: 50% 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: screen;
+}
+
+section.module.parallax-5 {
+  background-image: url("/public/about_bg.png");
+  background-position: 50% 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: screen;
+  font-family: "Raleway", sans-serif;
+}
+
+section.module.parallax-5 h2 {
+  text-align: left;
+}
+
+section.module.parallax-7 h2 {
+  text-align: left;
+}
+
+ul img {
+  width: 100%;
+}
+
+.cert li {
+  text-align: center;
+}
+
+section.module.parallax-6 {
+  background-position: 50% 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: screen;
+  background-image: url("/../public/about_child_bg.png");
+}
+
+section.module.parallax-7 {
+  background-image: url("/public/achivements.png");
+
+  /* background-image: url("https: //firebasestorage.googleapis.com/v0/b/swapnadeepportfolio.appspot.com/o/achivements.png?alt=media&token=37ba748d-c77a-43eb-9ac3-139736f23aa2"); */
+  background-position: 50% 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: screen;
+}
+
+section.module.parallax-8 {
+  background-image: url("/public/prizes.png");
+  background-position: 50% 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: screen;
+}
+
+section.module.parallax-9 {
+  background-image: url("/public/trophy.png");
+  background-position: 50% 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: screen;
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+
+  section.module p {
+    font-size: 20px;
+  }
+
+  section.module.parallax {
+    padding: 300px 0;
+  }
+
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+}
+
+/*footer*/
+.footer .container-fluid {
+  height: auto;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px;
+}
+
+footer .container-fluid a {
+  display: inline-block;
+  color: #ddd;
+  padding-left: 1em;
+}
+
+footer .container-fluid p {
+  display: inline-block;
+  color: #ddd;
+  padding-left: 1em;
+  padding-right: 2em;
+}
+
+@media (max-width: 768px) {
+  .col-md-4 {
+    text-align: center;
+    line-height: 30px;
+  }
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+#type {
+  font-family: monospace;
+  padding: 1em, 0;
+}
+
+.fa-facebook {
+  padding: 10px 14px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #322f30;
+}
+
+.fa-facebook:hover {
+  background-color: #3d5b99;
+}
+
+.fa-twitter {
+  padding: 10px 12px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #322f30;
+}
+
+.fa-twitter:hover {
+  background-color: #00aced;
+}
+
+.fa-youtube {
+  padding: 10px 14px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #322f30;
+}
+
+.fa-youtube:hover {
+  background-color: #e64a41;
+}
+
+.fa-linkedin {
+  padding: 10px 14px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #322f30;
+}
+
+.fa-linkedin:hover {
+  background-color: #0073a4;
+}
+
+.navbar {
+  font-family: "Courier New", Courier, monospace;
+}
